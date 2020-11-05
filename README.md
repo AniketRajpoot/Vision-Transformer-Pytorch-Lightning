@@ -3,7 +3,7 @@ This is a third party implementation of the **Visual Transformer [paper](https:/
 **[PyTorch Lightning](https://www.pytorchlightning.ai)** with focus on transparency in training/fine-tuning the model.  
 Heavily based on Google's [official implementation in Flax](https://github.com/google-research/vision_transformer)
 
-* Features to be implemented:
+## Features to be implemented:
 - [:heavy_check_mark:] Architecture as PyTorch modules.
 > TODO: Sparse and Linear Transformers utilities
 - [:heavy_check_mark:] Support for loading checkpoints (i.e, pretrained weights) saved as .npz by Flax model into an identical PyTorch model in terms of architecture.
