@@ -8,7 +8,7 @@ Heavily based on Google's [official implementation in Flax](https://github.com/g
 > TODO: Sparse and Linear Transformers utilities
 - [:heavy_check_mark:] Support for loading checkpoints (i.e, pretrained weights) saved as .npz by Flax model into an identical PyTorch model in terms of architecture and naming conventions.
 > Have to look at `load_pretrained` function in `checkpoints.py` thoroughly for conversion into torch.nn.Module.state_dict() format.
-- [:heavy_check_mark:] General model architecture as a pl.LightningModule object with transparent code, with readable code tokenisation, training steps etc.   
+- [:heavy_check_mark:] General model architecture as a pl.LightningModule object with transparent code, with readable code for tokenisation, training steps etc.   
 - [ ] Implementation of 4 variations of ViT (b16, b32, l16, l32) in PyTorch based on `configs.py` in the official repo.
 > Have to remove the hardcoded variables and write them in terms of `self.hparams`
 - [ ] Implementation of `training step` and `configure optimizers` in the LightningModule to truly support fine-tuning on custom dataset.
