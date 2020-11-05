@@ -1,5 +1,5 @@
 # Vision Transformer in PyTorch Lightning
-This is a third party implementation of the **Visual Transformer [paper](https://arxiv.org/pdf/2010.11929.pdf)** in 
+This is a third party implementation of the **Vision Transformer [paper](https://arxiv.org/pdf/2010.11929.pdf)** in 
 **[PyTorch Lightning](https://www.pytorchlightning.ai)** with focus on transparency in training/fine-tuning the model.  
 Heavily based on Google's [official implementation in Flax](https://github.com/google-research/vision_transformer)
 
