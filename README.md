@@ -1,9 +1,9 @@
-![GitHub Logo](/Extras/ViT_architecture.png)
-
 # Vision Transformer in PyTorch Lightning
 This is a third party implementation of the **Vision Transformer [paper](https://arxiv.org/pdf/2010.11929.pdf)** in 
 **[PyTorch Lightning](https://www.pytorchlightning.ai)** with focus on transparency in training/fine-tuning the model.  
 Heavily based on Google's [official implementation in Flax](https://github.com/google-research/vision_transformer)
+
+![GitHub Logo](/Extras/ViT_architecture.png)
 
 ## Features to be implemented:
 - [:heavy_check_mark:] Architecture as PyTorch modules.
